@@ -1,0 +1,195 @@
+body {
+  margin: 0 auto;
+}
+.HangManHeader {
+  background-color: #254347;
+  border-radius: 10px;
+  margin: 21px 19px;
+  text-align: center;
+  color: #ffffff;
+  height: 73px;
+  display: flex;
+  Justify-content:space-between;
+}
+
+.HangManHeader > :nth-child(1) {
+  left: 30px;
+  top: 31px;
+}
+
+.HangManHeader > :nth-child(3) {
+  right: 30px;
+  top: 31px;
+}
+
+.HangManHeader > h1 {
+  -webkit-transform:scale(1,2); /* Safari and Chrome */
+  -moz-transform:scale(1,2); /* Firefox */
+    -ms-transform:scale(1,2); /* IE 9 */
+    -o-transform:scale(1,2); /* Opera */
+    transform:scale(1,2); /* W3C */
+    line-height: 27px;
+}
+
+.LittleWhiteCircle {
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 50px;
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+}
+
+.Game {
+  display: flex;
+}
+
+/* hangman image */
+.HangMan {
+  margin: 65px 0px 0px 71px;
+  height: 260px;
+  display: inline-block;
+  background-position: center top;
+  background-size: contain;
+  background-repeat:no-repeat;
+}
+
+/* keyboard and letters gameplay */
+.GameCont {
+  width: 550px;
+  margin: 0px 32px 0px 32px;
+}
+
+.Words {
+  min-height: 330px;
+  min-width: 550px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.Words > section {
+  height: 56px;
+  margin: 0px 0px 32px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.Words > section > section {
+  margin: 0px 8px 0px 8px;
+  height: 56px;
+  width: 40px;
+}
+
+.Words > section > section > :nth-child(1){
+  height: 44px;
+  width: 40px;
+  margin: 0px 0px 8px 0px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: bottom; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Words > section > section > :nth-child(2) {
+  height: 4px;
+  width: 40px;
+}
+
+.ColorBlue {
+  color: #2271BF;
+}
+
+.ColorBlue > :nth-child(2) {
+  background-color: #2271BF
+}
+
+.ColorBlack {
+  color: #0E0F0F;
+}
+
+.ColorBlack > :nth-child(2) {
+  background-color: #0E0F0F
+}
+
+.Letters {
+  display: inline-block;
+  text-align:center;
+  min-width: 550px;
+}
+
+.Letters > section{
+  min-width: 550px;
+}
+
+.Letters > section >  div {
+  margin: 7.5px 4.5px 7.5px 4.5px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50px; 
+  background: #ececf0;
+  display: inline-block;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.ColorGrey {
+  cursor: default;
+  color: #d7d7d7;
+}
+
+.ClickDiv {
+  cursor: pointer;
+}
+
+/* Finish game */
+.Finish {
+  margin: 32px 55px 0px 0px;
+}
+
+.Finish p {
+  font-weight: bold;
+  font-size: 25px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  font-stretch: condensed;
+  text-align: center;
+  -webkit-transform:scale(1,2); /* Safari and Chrome */
+  -moz-transform:scale(1,2); /* Firefox */
+    -ms-transform:scale(1,2); /* IE 9 */
+    -o-transform:scale(1,2); /* Opera */
+    transform:scale(1,2); /* W3C */
+}
+
+.TryAgain {
+  width: 152px;
+  background-color: #2271BF;
+  box-shadow: 0 14px 12px 0 rgba(0,0,0,0.15);
+  border-radius: 16px;
+  margin: 0px 0px 32px 0px auto;
+  height: 75px;
+  position: relative;
+  cursor: pointer;
+}
+
+.TryAgain p {
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.GameStateImage {
+  width: 150px;
+  height: 150px;
+  background-position: center top;
+  background-size: contain;
+  background-repeat:no-repeat;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+}
