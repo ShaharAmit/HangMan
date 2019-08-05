@@ -148,7 +148,7 @@ body {
 
 /* Finish game */
 .Finish {
-  margin: 32px 55px 0px 0px;
+  margin: 32px 55px 32px 0px;
 }
 
 .Finish p {
@@ -170,7 +170,7 @@ body {
   background-color: #2271BF;
   box-shadow: 0 14px 12px 0 rgba(0,0,0,0.15);
   border-radius: 16px;
-  margin: 0px 0px 32px 0px auto;
+  margin: 0 auto;
   height: 75px;
   position: relative;
   cursor: pointer;
